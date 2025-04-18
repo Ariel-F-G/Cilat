@@ -1,0 +1,103 @@
+
+.contenedor-consulta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.consulta-boton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contenedor-texto-consulta {
+  display: flex;
+  gap: 10px;
+}
+
+.numero-documento {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.boton-consulta {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #7c8071;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.boton-consulta:hover{
+  background-color: #dde3ca;
+  color: black;
+}
+
+/* Estilos del cuadro 2x5 */
+.contenedor-cuadro {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #3d3c3b;
+  display: flex;
+  justify-content: center;
+}
+
+.tabla-cuadro {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla-cuadro td {
+  border: 1px solid #3d3c3b;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos de la tabla de resultados */
+.contenedor-tabla {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.tabla-resultados {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-resultados th, .tabla-resultados td {
+  border: 1px solid #3d3c3b;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabla-resultados th {
+  background-color: #dde3ca;
+}
+
+.operadores{
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.mo, .cla, .ti, .wo, .vi, .et,.me {
+  color: rgb(4, 0, 255);
+}
+.mo:hover, .cla:hover, .ti:hover, .wo:hover, .vi:hover, .et:hover,.me:hover {
+  color: rgb(157, 0, 255);
+}
+
+.recomendación{
+  text-align: center; 
+}
+.parra{
+  margin: 10px 100px 0px 100px;
+  font-size: 11px;
+  font-family: verdana, arial, sans-serif;
+  text-align: center; 
+}
+td{
+  font-weight: bold;
+}
