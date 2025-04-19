@@ -1,9 +1,9 @@
 # CILAT
-**Consulta e Identificación de Líneas Activas por Titular
+<h1>Consulta e Identificación de Líneas Activas por Titular</h1>
 
-Prototipo web desarrollado en React para simular la verificación y consulta de líneas móviles activas asociadas a una persona, con fines de detección de fraudes y control de identidad.
+<h3>Prototipo web desarrollado en React para simular la verificación y consulta de líneas móviles activas asociadas a una persona, con fines de detección de fraudes y control de identidad.
 Para realizar una demostración práctica del funcionamiento de la plataforma CILAT, puedes acceder al siguiente enlace: https://cilat.online/.
-En el campo correspondiente al número de identidad, puedes ingresar alguno de los siguientes valores de prueba: 11111111, 222222222, 3333333333, 1234567. Estos números simulan documentos de identidad de diferentes personas y mostrarán resultados asociados de forma demostrativa.
+En el campo correspondiente al número de identidad, puedes ingresar alguno de los siguientes valores de prueba: 11111111, 222222222, 3333333333, 1234567. Estos números simulan documentos de identidad de diferentes personas y mostrarán resultados asociados de forma demostrativa.</h3>
 ---
 
 ## Getting Started with Create React App
